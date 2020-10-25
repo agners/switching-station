@@ -370,8 +370,16 @@
   },
   "sheets": [
     [
-      "b91f7c56-1c4d-4f2e-9c7a-faa31e0382a0",
+      "71c85482-9cdb-4233-8703-887d666e0662",
       ""
+    ],
+    [
+      "07d743e1-9711-4792-ae99-8a0eab7644b4",
+      "Power Switch"
+    ],
+    [
+      "b8d708a3-573d-4b9c-97fc-b84cf7e001a1",
+      "Control"
     ]
   ],
   "text_variables": {}
