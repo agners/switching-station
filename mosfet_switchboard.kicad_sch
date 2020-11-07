@@ -74,6 +74,21 @@
     (path "/07d743e1-9711-4792-ae99-8a0eab7644b4/13fb8aeb-764d-415d-be30-3d8d944d4728"
       (reference "#PWR0103") (unit 1) (value "GND") (footprint "")
     )
+    (path "/07d743e1-9711-4792-ae99-8a0eab7644b4/12e6e5a3-b1cf-4182-9982-74a8274d93b1"
+      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/07d743e1-9711-4792-ae99-8a0eab7644b4/12f3db2a-c423-4f33-bcf0-52f62eee7fed"
+      (reference "#PWR?") (unit 1) (value "VDD (5-24V)") (footprint "")
+    )
+    (path "/07d743e1-9711-4792-ae99-8a0eab7644b4/20c14b41-3f63-4a88-a37a-b2963f627cec"
+      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/07d743e1-9711-4792-ae99-8a0eab7644b4/2a659cf6-d129-41fd-b15a-fb0ab3b473ce"
+      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/07d743e1-9711-4792-ae99-8a0eab7644b4/45487a26-5b84-4e02-a0d8-80c54878410e"
+      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+    )
     (path "/07d743e1-9711-4792-ae99-8a0eab7644b4/bf8d9d6c-c51c-40ce-a1e6-41d06699b67f"
       (reference "C13") (unit 1) (value "220pF") (footprint "Capacitor_SMD:C_0402_1005Metric")
     )
@@ -85,6 +100,12 @@
     )
     (path "/07d743e1-9711-4792-ae99-8a0eab7644b4/091b5f8a-2ba1-4e33-9739-2c259b82c0ac"
       (reference "D3") (unit 1) (value "RED") (footprint "LED_SMD:LED_0402_1005Metric")
+    )
+    (path "/07d743e1-9711-4792-ae99-8a0eab7644b4/5f597a33-4707-497e-a0fd-d5c6259a1e3e"
+      (reference "D?") (unit 1) (value "BZX84C3V3-T1") (footprint "Diode_SMD:D_SOT-23_ANK")
+    )
+    (path "/07d743e1-9711-4792-ae99-8a0eab7644b4/e0b61aec-af61-4bfa-a429-24c433cecb42"
+      (reference "D?") (unit 1) (value "BZX84C3V3-T1") (footprint "Diode_SMD:D_SOT-23_ANK")
     )
     (path "/07d743e1-9711-4792-ae99-8a0eab7644b4/5bc88ca9-7c3f-4977-9490-2874714d009f"
       (reference "J3") (unit 1) (value "Power Input") (footprint "TerminalBlock_RND:TerminalBlock_RND_205-00287_1x02_P5.08mm_Horizontal")
@@ -112,6 +133,18 @@
     )
     (path "/07d743e1-9711-4792-ae99-8a0eab7644b4/1f0f8a75-669f-4992-841b-95c13ad8235f"
       (reference "R11") (unit 1) (value "10kΩ") (footprint "Resistor_SMD:R_0402_1005Metric")
+    )
+    (path "/07d743e1-9711-4792-ae99-8a0eab7644b4/587e72b6-0f95-441f-b61e-75336478a173"
+      (reference "R?") (unit 1) (value "12kΩ") (footprint "")
+    )
+    (path "/07d743e1-9711-4792-ae99-8a0eab7644b4/b30ca8ed-3a11-4803-80c8-a82079cc5561"
+      (reference "R?") (unit 1) (value "1.8kΩ") (footprint "")
+    )
+    (path "/07d743e1-9711-4792-ae99-8a0eab7644b4/c98fc828-207f-44e0-9f77-dd6bf6759e28"
+      (reference "R?") (unit 1) (value "12kΩ") (footprint "")
+    )
+    (path "/07d743e1-9711-4792-ae99-8a0eab7644b4/e54350b4-1a10-4fb7-9325-0e80d8f8eb9c"
+      (reference "R?") (unit 1) (value "1.8kΩ") (footprint "")
     )
     (path "/07d743e1-9711-4792-ae99-8a0eab7644b4/e8068f46-db03-4d94-81de-5cd7f909642f"
       (reference "U1") (unit 1) (value "BTS7004-1EPP") (footprint "Package_SO:Infineon_PG-TSDSO-14-22")
