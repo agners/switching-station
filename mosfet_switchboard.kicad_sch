@@ -7,6 +7,7 @@
   (title_block
     (title "MOSFET Switchboard")
     (rev "v0.1")
+    (comment 4 "Author: Stefan Agner")
   )
 
   (lib_symbols
@@ -168,23 +169,23 @@
     (path "/b8d708a3-573d-4b9c-97fc-b84cf7e001a1/43ec2947-19d7-4e63-9717-8a66726e8f0d"
       (reference "FB1") (unit 1) (value "100Ohm @ 100MHz") (footprint "Inductor_SMD:L_0805_2012Metric")
     )
-    (path "/b8d708a3-573d-4b9c-97fc-b84cf7e001a1/c87c0fc6-50c9-4010-8117-e771f7643c48"
-      (reference "J1") (unit 1) (value "Conn_01x04_Male") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical")
-    )
     (path "/b8d708a3-573d-4b9c-97fc-b84cf7e001a1/8e5d7d04-d191-423b-be4d-036d0bb24c20"
-      (reference "J2") (unit 1) (value "USB_C_Receptacle_USB2.0") (footprint "Connector_USB:USB_C_Receptacle_Amphenol_12401610E4-2A")
+      (reference "J7") (unit 1) (value "USB_C_Receptacle_USB2.0") (footprint "Connector_USB:USB_C_Receptacle_Amphenol_12401610E4-2A")
+    )
+    (path "/b8d708a3-573d-4b9c-97fc-b84cf7e001a1/c87c0fc6-50c9-4010-8117-e771f7643c48"
+      (reference "J8") (unit 1) (value "Conn_01x04_Male") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical")
     )
     (path "/b8d708a3-573d-4b9c-97fc-b84cf7e001a1/5e9d3562-bc1d-4b3a-a4b7-b4bb3e71073e"
-      (reference "J8") (unit 1) (value "Conn_ARM_JTAG_SWD_10") (footprint "Connector_PinHeader_1.27mm:PinHeader_2x05_P1.27mm_Vertical_SMD")
+      (reference "J9") (unit 1) (value "Conn_ARM_JTAG_SWD_10") (footprint "Connector_PinHeader_1.27mm:PinHeader_2x05_P1.27mm_Vertical_SMD")
     )
     (path "/b8d708a3-573d-4b9c-97fc-b84cf7e001a1/9a2c3ce1-b8a9-4169-b282-eb28412cf2fd"
       (reference "JP1") (unit 1) (value "SolderJumper_2_Open") (footprint "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm")
     )
-    (path "/b8d708a3-573d-4b9c-97fc-b84cf7e001a1/4c24452a-6f9b-4721-a4e0-bff94091245a"
-      (reference "JP2") (unit 1) (value "SolderJumper_3_Bridged12") (footprint "Jumper:SolderJumper-3_P1.3mm_Bridged12_RoundedPad1.0x1.5mm_NumberLabels")
-    )
     (path "/b8d708a3-573d-4b9c-97fc-b84cf7e001a1/9d2f2a69-c71d-43c8-b427-a12b406303ea"
       (reference "JP3") (unit 1) (value "SolderJumper_2_Open") (footprint "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm")
+    )
+    (path "/b8d708a3-573d-4b9c-97fc-b84cf7e001a1/4c24452a-6f9b-4721-a4e0-bff94091245a"
+      (reference "JP8") (unit 1) (value "SolderJumper_3_Bridged12") (footprint "Jumper:SolderJumper-3_P1.3mm_Bridged12_RoundedPad1.0x1.5mm_NumberLabels")
     )
     (path "/b8d708a3-573d-4b9c-97fc-b84cf7e001a1/f2b9df0a-3bc1-4845-a904-46f845829176"
       (reference "L1") (unit 1) (value "39nH") (footprint "Inductor_SMD:L_0603_1608Metric")
@@ -222,11 +223,23 @@
     (path "/4dc0e8c4-ea02-449e-902d-57ef787949ca/1da74d91-ad7f-44b4-a402-b45ae72610bf"
       (reference "#PWR013") (unit 1) (value "GND") (footprint "")
     )
+    (path "/4dc0e8c4-ea02-449e-902d-57ef787949ca/5bc26ed2-4c52-4502-9085-f4c8dd857ad1"
+      (reference "#PWR071") (unit 1) (value "VDD (5-24V)") (footprint "")
+    )
+    (path "/4dc0e8c4-ea02-449e-902d-57ef787949ca/f056798a-363a-4b31-a556-0a05ec2d6de5"
+      (reference "#PWR072") (unit 1) (value "VDD (5-24V)") (footprint "")
+    )
+    (path "/4dc0e8c4-ea02-449e-902d-57ef787949ca/f467a7f9-3fe6-48d0-81f4-63201d2e5498"
+      (reference "#PWR073") (unit 1) (value "GND") (footprint "")
+    )
     (path "/4dc0e8c4-ea02-449e-902d-57ef787949ca/1fc0b81e-897f-426f-928d-3dca6e151ed3"
       (reference "D9") (unit 1) (value "BZX84C3V3-T1") (footprint "Diode_SMD:D_SOT-23_ANK")
     )
-    (path "/4dc0e8c4-ea02-449e-902d-57ef787949ca/89b47208-21a7-4ec7-8fe8-f7a2040fa9fc"
-      (reference "J3") (unit 1) (value "Power Input") (footprint "TerminalBlock_RND:TerminalBlock_RND_205-00287_1x02_P5.08mm_Horizontal")
+    (path "/4dc0e8c4-ea02-449e-902d-57ef787949ca/906a1f12-1cbc-4956-a6ce-b5e98a976365"
+      (reference "J5") (unit 1) (value "Power Input") (footprint "TerminalBlock_RND:TerminalBlock_RND_205-00287_1x02_P5.08mm_Horizontal")
+    )
+    (path "/4dc0e8c4-ea02-449e-902d-57ef787949ca/7e90c127-3aa7-4566-b06d-8c568946cd39"
+      (reference "J6") (unit 1) (value "Power Input") (footprint "TerminalBlock_RND:TerminalBlock_RND_205-00287_1x02_P5.08mm_Horizontal")
     )
     (path "/4dc0e8c4-ea02-449e-902d-57ef787949ca/183caa5f-2bb1-475d-a43a-f08025833e03"
       (reference "R1") (unit 1) (value "12kΩ") (footprint "Resistor_SMD:R_0603_1608Metric")
@@ -280,7 +293,7 @@
       (reference "D17") (unit 1) (value "BZX84C3V3-T1") (footprint "Diode_SMD:D_SOT-23_ANK")
     )
     (path "/4dc0e8c4-ea02-449e-902d-57ef787949ca/11ef3e52-fb30-4c12-8fd1-597f3181a915/c280872d-d84e-4927-b16f-520134a96b07"
-      (reference "J4") (unit 1) (value "Power Output") (footprint "TerminalBlock_RND:TerminalBlock_RND_205-00287_1x02_P5.08mm_Horizontal")
+      (reference "J3") (unit 1) (value "Power Output") (footprint "TerminalBlock_RND:TerminalBlock_RND_205-00287_1x02_P5.08mm_Horizontal")
     )
     (path "/4dc0e8c4-ea02-449e-902d-57ef787949ca/11ef3e52-fb30-4c12-8fd1-597f3181a915/30af8af7-9fef-45f6-a487-426855b59385"
       (reference "R8") (unit 1) (value "4.7kΩ") (footprint "Resistor_SMD:R_0603_1608Metric")
@@ -358,7 +371,7 @@
       (reference "D14") (unit 1) (value "BZX84C3V3-T1") (footprint "Diode_SMD:D_SOT-23_ANK")
     )
     (path "/4dc0e8c4-ea02-449e-902d-57ef787949ca/814fa498-56a1-4dfa-8310-bc9320389478/c280872d-d84e-4927-b16f-520134a96b07"
-      (reference "J5") (unit 1) (value "Power Output") (footprint "TerminalBlock_RND:TerminalBlock_RND_205-00287_1x02_P5.08mm_Horizontal")
+      (reference "J1") (unit 1) (value "Power Output") (footprint "TerminalBlock_RND:TerminalBlock_RND_205-00287_1x02_P5.08mm_Horizontal")
     )
     (path "/4dc0e8c4-ea02-449e-902d-57ef787949ca/814fa498-56a1-4dfa-8310-bc9320389478/30af8af7-9fef-45f6-a487-426855b59385"
       (reference "R5") (unit 1) (value "4.7kΩ") (footprint "Resistor_SMD:R_0603_1608Metric")
@@ -436,7 +449,7 @@
       (reference "D15") (unit 1) (value "BZX84C3V3-T1") (footprint "Diode_SMD:D_SOT-23_ANK")
     )
     (path "/4dc0e8c4-ea02-449e-902d-57ef787949ca/71004b0d-0e05-4b2f-bae6-fd0f938c0f5f/c280872d-d84e-4927-b16f-520134a96b07"
-      (reference "J6") (unit 1) (value "Power Output") (footprint "TerminalBlock_RND:TerminalBlock_RND_205-00287_1x02_P5.08mm_Horizontal")
+      (reference "J4") (unit 1) (value "Power Output") (footprint "TerminalBlock_RND:TerminalBlock_RND_205-00287_1x02_P5.08mm_Horizontal")
     )
     (path "/4dc0e8c4-ea02-449e-902d-57ef787949ca/71004b0d-0e05-4b2f-bae6-fd0f938c0f5f/30af8af7-9fef-45f6-a487-426855b59385"
       (reference "R6") (unit 1) (value "4.7kΩ") (footprint "Resistor_SMD:R_0603_1608Metric")
@@ -514,7 +527,7 @@
       (reference "D16") (unit 1) (value "BZX84C3V3-T1") (footprint "Diode_SMD:D_SOT-23_ANK")
     )
     (path "/4dc0e8c4-ea02-449e-902d-57ef787949ca/1c48731a-dffc-413b-8e74-346c9b6b59e0/c280872d-d84e-4927-b16f-520134a96b07"
-      (reference "J7") (unit 1) (value "Power Output") (footprint "TerminalBlock_RND:TerminalBlock_RND_205-00287_1x02_P5.08mm_Horizontal")
+      (reference "J2") (unit 1) (value "Power Output") (footprint "TerminalBlock_RND:TerminalBlock_RND_205-00287_1x02_P5.08mm_Horizontal")
     )
     (path "/4dc0e8c4-ea02-449e-902d-57ef787949ca/1c48731a-dffc-413b-8e74-346c9b6b59e0/30af8af7-9fef-45f6-a487-426855b59385"
       (reference "R7") (unit 1) (value "4.7kΩ") (footprint "Resistor_SMD:R_0603_1608Metric")

@@ -4,6 +4,10 @@
 
   (paper "A4")
 
+  (title_block
+    (comment 4 "Author: Stefan Agner")
+  )
+
   (lib_symbols
     (symbol "Connector:Conn_01x04_Male" (pin_names (offset 1.016) hide) (in_bom yes) (on_board yes)
       (property "Reference" "J" (id 0) (at 0 5.08 0)
@@ -2841,7 +2845,7 @@
   (symbol (lib_id "Connector:Conn_01x04_Male") (at 26.67 133.35 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid "c87c0fc6-50c9-4010-8117-e771f7643c48")
-    (property "Reference" "J1" (id 0) (at 30.48 125.73 0))
+    (property "Reference" "J8" (id 0) (at 30.48 125.73 0))
     (property "Value" "Conn_01x04_Male" (id 1) (at 30.48 128.27 0))
     (property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" (id 2) (at 26.67 133.35 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -2854,7 +2858,7 @@
   (symbol (lib_id "Jumper:SolderJumper_3_Bridged12") (at 45.72 121.92 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid "4c24452a-6f9b-4721-a4e0-bff94091245a")
-    (property "Reference" "JP2" (id 0) (at 45.72 115.57 0))
+    (property "Reference" "JP8" (id 0) (at 45.72 115.57 0))
     (property "Value" "SolderJumper_3_Bridged12" (id 1) (at 45.72 118.11 0))
     (property "Footprint" "Jumper:SolderJumper-3_P1.3mm_Bridged12_RoundedPad1.0x1.5mm_NumberLabels" (id 2) (at 45.72 121.92 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -2880,7 +2884,7 @@
   (symbol (lib_id "Connector:Conn_ARM_JTAG_SWD_10") (at 214.63 124.46 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid "5e9d3562-bc1d-4b3a-a4b7-b4bb3e71073e")
-    (property "Reference" "J8" (id 0) (at 203.2 123.19 0)
+    (property "Reference" "J9" (id 0) (at 203.2 123.19 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "Conn_ARM_JTAG_SWD_10" (id 1) (at 203.2 124.46 0)
@@ -2897,7 +2901,7 @@
   (symbol (lib_id "Connector:USB_C_Receptacle_USB2.0") (at 31.75 44.45 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid "8e5d7d04-d191-423b-be4d-036d0bb24c20")
-    (property "Reference" "J2" (id 0) (at 35.56 21.59 0))
+    (property "Reference" "J7" (id 0) (at 35.56 21.59 0))
     (property "Value" "USB_C_Receptacle_USB2.0" (id 1) (at 35.56 24.13 0))
     (property "Footprint" "Connector_USB:USB_C_Receptacle_Amphenol_12401610E4-2A" (id 2) (at 35.56 44.45 0)
       (effects (font (size 1.27 1.27)) hide)
