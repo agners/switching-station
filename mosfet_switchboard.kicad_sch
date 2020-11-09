@@ -6,6 +6,7 @@
 
   (title_block
     (title "MOSFET Switchboard")
+    (date "2020-11-09")
     (rev "v0.1")
     (comment 4 "Author: Stefan Agner")
   )
@@ -136,6 +137,9 @@
     (path "/b8d708a3-573d-4b9c-97fc-b84cf7e001a1/69c42657-f237-491e-95bd-c349743c2239"
       (reference "#PWR0102") (unit 1) (value "GND") (footprint "")
     )
+    (path "/b8d708a3-573d-4b9c-97fc-b84cf7e001a1/14f829ab-1e8f-48d5-b60d-297992bc2e5d"
+      (reference "#PWR0103") (unit 1) (value "GND") (footprint "")
+    )
     (path "/b8d708a3-573d-4b9c-97fc-b84cf7e001a1/c61891cf-5442-47cc-b257-6f145c23ce59"
       (reference "C5") (unit 1) (value "10µF") (footprint "Capacitor_SMD:C_0603_1608Metric")
     )
@@ -168,6 +172,9 @@
     )
     (path "/b8d708a3-573d-4b9c-97fc-b84cf7e001a1/bff11d67-eaba-457c-b68e-ed7ce18d839e"
       (reference "D18") (unit 1) (value "BLUE") (footprint "LED_SMD:LED_0603_1608Metric")
+    )
+    (path "/b8d708a3-573d-4b9c-97fc-b84cf7e001a1/ff95806d-88a3-4692-acb9-71ba842d9b50"
+      (reference "D19") (unit 1) (value "PINK") (footprint "LED_SMD:LED_0603_1608Metric")
     )
     (path "/b8d708a3-573d-4b9c-97fc-b84cf7e001a1/43ec2947-19d7-4e63-9717-8a66726e8f0d"
       (reference "FB1") (unit 1) (value "100Ohm @ 100MHz") (footprint "Inductor_SMD:L_0805_2012Metric")
@@ -207,6 +214,12 @@
     )
     (path "/b8d708a3-573d-4b9c-97fc-b84cf7e001a1/b5c126b1-84fe-4285-90aa-339feb815366"
       (reference "R43") (unit 1) (value "10kΩ") (footprint "Resistor_SMD:R_0603_1608Metric")
+    )
+    (path "/b8d708a3-573d-4b9c-97fc-b84cf7e001a1/4d13ebac-94aa-407c-af07-36443411671c"
+      (reference "R44") (unit 1) (value "1kΩ") (footprint "Resistor_SMD:R_0603_1608Metric")
+    )
+    (path "/b8d708a3-573d-4b9c-97fc-b84cf7e001a1/81173b00-9312-47c3-9e1c-464f12eea78a"
+      (reference "TP1") (unit 1) (value "TestPoint") (footprint "TestPoint:TestPoint_Pad_D1.0mm")
     )
     (path "/b8d708a3-573d-4b9c-97fc-b84cf7e001a1/fe65ca03-116e-40c0-ad4d-05ff1a642540"
       (reference "U5") (unit 1) (value "AMS1117-3.3") (footprint "Package_TO_SOT_SMD:SOT-223-3_TabPin2")
