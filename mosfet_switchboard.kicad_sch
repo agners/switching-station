@@ -131,10 +131,10 @@
       (reference "#PWR074") (unit 1) (value "+3.3V") (footprint "")
     )
     (path "/b8d708a3-573d-4b9c-97fc-b84cf7e001a1/519e16cb-864d-499e-9e8c-a0ef7c25f4d2"
-      (reference "#PWR?") (unit 1) (value "+5V") (footprint "")
+      (reference "#PWR0101") (unit 1) (value "+5V") (footprint "")
     )
     (path "/b8d708a3-573d-4b9c-97fc-b84cf7e001a1/69c42657-f237-491e-95bd-c349743c2239"
-      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+      (reference "#PWR0102") (unit 1) (value "GND") (footprint "")
     )
     (path "/b8d708a3-573d-4b9c-97fc-b84cf7e001a1/c61891cf-5442-47cc-b257-6f145c23ce59"
       (reference "C5") (unit 1) (value "10µF") (footprint "Capacitor_SMD:C_0603_1608Metric")
@@ -215,7 +215,7 @@
       (reference "U6") (unit 1) (value "STM32F042C4Tx") (footprint "Package_QFP:LQFP-48_7x7mm_P0.5mm")
     )
     (path "/b8d708a3-573d-4b9c-97fc-b84cf7e001a1/a81fdbc4-5d10-42da-9f3c-9b36f7448577"
-      (reference "U?") (unit 1) (value "USBLC6-2SC6") (footprint "Package_TO_SOT_SMD:SOT-23-6")
+      (reference "U7") (unit 1) (value "USBLC6-2SC6") (footprint "Package_TO_SOT_SMD:SOT-23-6")
     )
     (path "/4dc0e8c4-ea02-449e-902d-57ef787949ca/4bdf7ac8-7bf8-4d12-ad8f-5f6de6f13399"
       (reference "#PWR01") (unit 1) (value "VDD (5-24V)") (footprint "")
